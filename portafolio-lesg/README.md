@@ -10,6 +10,7 @@ El sitio presenta la trayectoria profesional, proyectos destacados, tecnologías
 - Navegación por secciones con desplazamiento suave.
 - Menú adaptable para pantallas pequeñas.
 - Fondo animado con partículas y conexiones.
+- Retrato personal integrado en la portada.
 - Animaciones de entrada al hacer scroll.
 - Secciones de presentación, proyectos, herramientas, trayectoria y contacto.
 - Enlaces a GitHub, LinkedIn, LS Solutions y correo electrónico.
@@ -29,6 +30,8 @@ portafolio-lesg/
 ├── index.html   # Estructura y contenido del sitio
 ├── styles.css   # Estilos, responsive design y animaciones
 ├── script.js    # Canvas, menú móvil y animaciones de scroll
+├── assets/
+│   └── luis-soto-garcia.jpg  # Fotografía personal de la portada
 └── README.md    # Documentación del proyecto
 ```
 
