@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio de Luis Eduardo Soto García, estudiante de Ingeniería de Sistemas y desarrollador full-stack." />
+    <title>Luis Eduardo Soto García · Ingeniería de Sistemas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <canvas id="network" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark">LS</span>
+        <span>luis.soto<span class="accent">/</span>dev</span>
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#trayectoria">Trayectoria</a>
+        <a href="#contacto" class="nav-contact">Hablemos <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero section-shell">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> Disponible para nuevos proyectos</div>
+          <h1>Construyo ideas<br /><em>que funcionan.</em></h1>
+          <p class="hero-intro">Soy <strong>Luis Eduardo Soto García</strong>, estudiante de Ingeniería de Sistemas y desarrollador full-stack desde Cúcuta, Colombia.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver mi trabajo <span>↗</span></a>
+            <a class="text-link" href="mailto:luis.sotto1423@gmail.com">Contáctame <span>→</span></a>
+          </div>
+        </div>
+        <div class="hero-terminal reveal reveal-delay">
+          <div class="portrait-frame">
+            <img src="assets/luis-soto-garcia.jpg" alt="Luis Eduardo Soto García junto a un lago en la montaña" />
+            <div class="portrait-caption"><span class="status-dot"></span> Luis Eduardo Soto García</div>
+          </div>
+          <div class="terminal-top"><span></span><span></span><span></span><small>luis@portfolio:~</small></div>
+          <div class="terminal-body">
+              <p><span class="terminal-muted">$</span> whoami</p>
+              <p class="terminal-output">luis_soto_garcia</p>
+              <p><span class="terminal-muted">$</span> cat focus.txt</p>
+              <p class="terminal-output">software · sistemas · soluciones</p>
+              <p><span class="terminal-muted">$</span> <span class="blink">_</span></p>
+          </div>
+          <div class="terminal-orbit orbit-one"></div>
+          <div class="terminal-orbit orbit-two"></div>
+        </div>
+        <div class="scroll-note"><span class="scroll-line"></span> Desplázate para explorar</div>
+      </section>
+
+      <section id="sobre-mi" class="about section-shell">
+        <div class="section-label reveal"><span>01</span> / SOBRE MÍ</div>
+        <div class="about-grid">
+          <div class="about-heading reveal">
+            <h2>La tecnología es<br /><span>mi lenguaje.</span></h2>
+          </div>
+          <div class="about-content reveal reveal-delay">
+            <p class="lead">Me interesa entender cómo funcionan las cosas y convertir problemas complejos en experiencias digitales simples, útiles y bien construidas.</p>
+            <p>Actualmente estudio Ingeniería de Sistemas en la Universidad Francisco de Paula Santander y desarrollo productos web, sistemas de información y soluciones tecnológicas a la medida.</p>
+            <div class="about-facts">
+              <div><span class="fact-number">01</span><strong>Full-stack</strong><small>De la idea al despliegue</small></div>
+              <div><span class="fact-number">02</span><strong>LS Solutions</strong><small>Fundador y técnico</small></div>
+              <div><span class="fact-number">03</span><strong>Cúcuta, CO</strong><small>Trabajando remoto</small></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="projects section-shell">
+        <div class="section-heading reveal">
+          <div class="section-label"><span>02</span> / PROYECTOS DESTACADOS</div>
+          <p>Algunas cosas que he construido<br />y problemas que he resuelto.</p>
+        </div>
+        <div class="project-list">
+          <article class="project-card project-featured reveal">
+            <div class="project-number">01</div>
+            <div class="project-info">
+              <div class="project-meta"><span>Sistema de información</span><span>Feb 2026 — Jun 2026</span></div>
+              <h3>PUCE <span>↗</span></h3>
+              <p>Sistema unificado de convivencia escolar para la gestión de SAC y SIUCE, conectado a bases de datos independientes.</p>
+              <div class="tags"><span>React</span><span>Next.js</span><span>Python</span><span>PostgreSQL</span></div>
+            </div>
+            <div class="project-icon icon-grid">▦</div>
+            <a class="project-link" href="https://github.com/lesg1151860/v0-puce-system" target="_blank" rel="noreferrer">Explorar proyecto <span>↗</span></a>
+          </article>
+          <article class="project-card reveal reveal-delay">
+            <div class="project-number">02</div>
+            <div class="project-info">
+              <div class="project-meta"><span>Producto web</span><span>2026</span></div>
+              <h3>Veterinary System <span>↗</span></h3>
+              <p>Plataforma moderna para gestionar citas veterinarias, con arquitectura documentada y agentes de IA.</p>
+              <div class="tags"><span>Django</span><span>Next.js</span><span>PostgreSQL</span><span>IA</span></div>
+            </div>
+            <a class="project-link" href="https://github.com/lesg14/veterinary-system" target="_blank" rel="noreferrer">Ver repositorio <span>↗</span></a>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-number">03</div>
+            <div class="project-info">
+              <div class="project-meta"><span>Emprendimiento</span><span>LS Solutions</span><span>2025</span></div>
+              <h3>Soluciones digitales <span>↗</span></h3>
+              <p>Sitio corporativo para servicios tecnológicos, mantenimiento, desarrollo web y automatización de procesos.</p>
+              <div class="tags"><span>Web</span><span>Automatización</span><span>Soporte</span></div>
+            </div>
+            <a class="project-link" href="https://ls-solutions-website.vercel.app/" target="_blank" rel="noreferrer">Visitar sitio <span>↗</span></a>
+          </article>
+          <article class="project-card reveal reveal-delay">
+            <div class="project-number">04</div>
+            <div class="project-info">
+              <div class="project-meta"><span>Gestión para gimnasios</span><span>Producto web</span><span>2026</span></div>
+              <h3>Passion Fitness <span>↗</span></h3>
+              <p>Plataforma para gestionar miembros, planes, pagos, asistencia y check-in de un gimnasio desde un dashboard.</p>
+              <div class="tags"><span>Django</span><span>React</span><span>Vite</span><span>REST API</span></div>
+            </div>
+            <a class="project-link" href="https://github.com/lesg14/passion-fitness-website" target="_blank" rel="noreferrer">Ver repositorio <span>↗</span></a>
+          </article>
+        </div>
+        <a class="all-projects" href="https://github.com/lesg14" target="_blank" rel="noreferrer">Ver todos los repositorios <span>↗</span></a>
+      </section>
+
+      <section class="stack section-shell">
+        <div class="section-label reveal"><span>03</span> / HERRAMIENTAS</div>
+        <div class="stack-layout">
+          <h2 class="reveal">Herramientas<br /><span>de trabajo.</span></h2>
+          <div class="stack-list reveal reveal-delay">
+            <div class="stack-row"><span>01</span><strong>Lenguajes</strong><p>Python · JavaScript · TypeScript</p></div>
+            <div class="stack-row"><span>02</span><strong>Frameworks</strong><p>Django · React · Angular · Next.js</p></div>
+            <div class="stack-row"><span>03</span><strong>Datos & cloud</strong><p>PostgreSQL · SQLite · GCP · Vercel</p></div>
+            <div class="stack-row"><span>04</span><strong>Flujo de trabajo</strong><p>GitHub · Copilot · Gemini · Colab</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="trayectoria" class="journey section-shell">
+        <div class="section-label reveal"><span>04</span> / TRAYECTORIA</div>
+        <div class="journey-grid">
+          <div class="journey-title reveal"><h2>Siempre<br /><span>aprendiendo.</span></h2></div>
+          <div class="timeline reveal reveal-delay">
+            <div class="timeline-item"><span class="timeline-date">ACTUALIDAD</span><div><h3>Ingeniería de Sistemas</h3><p>Universidad Francisco de Paula Santander · Cúcuta</p></div></div>
+            <div class="timeline-item"><span class="timeline-date">2024 — HOY</span><div><h3>Fundador · LS Solutions</h3><p>Soporte técnico, hardware, software y soluciones digitales para personas y negocios.</p></div></div>
+            <div class="timeline-item"><span class="timeline-date">EN CURSO</span><div><h3>Desarrollo de productos</h3><p>Construcción de sistemas web, prácticas cloud y laboratorios de sistemas operativos.</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="contact section-shell">
+        <div class="contact-inner reveal">
+          <div class="section-label"><span>05</span> / CONTACTO</div>
+          <h2>¿Tienes una idea?<br /><em>Hablemos.</em></h2>
+          <p>Estoy abierto a colaborar en proyectos interesantes, productos digitales y soluciones que generen valor.</p>
+          <a class="contact-email" href="mailto:luis.sotto1423@gmail.com">luis.sotto1423@gmail.com <span>↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <span>© 2026 Luis Eduardo Soto García</span>
+      <div><a href="https://github.com/lesg14" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/lesg14/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://ls-solutions-website.vercel.app/" target="_blank" rel="noreferrer">LS Solutions</a></div>
+      <span class="footer-location">Hecho con pasión · Cúcuta, CO</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
